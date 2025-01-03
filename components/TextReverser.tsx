@@ -31,7 +31,7 @@ export default function TextReverser() {
           >
             {reversedText}
           </div>
-          <h1 className="text-2xl font-bold">Text Reverser</h1>
+          <h1 className="text-2xl font-bold">Text Reverser Max!</h1>
         </>
       )}
       
