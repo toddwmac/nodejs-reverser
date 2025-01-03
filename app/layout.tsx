@@ -1,6 +1,20 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Head from 'next/head';
+
+export default function Layout({ children }) {
+  return (
+    <div>
+      <Head>
+        <title>My Awesome App</title>
+        <meta name="description" content="Todd's Text Reverser" />
+      </Head>
+      {children}
+    </div>
+  );
+}
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
